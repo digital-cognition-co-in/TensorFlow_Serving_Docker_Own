@@ -1226,4 +1226,313 @@ dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/Tens
 
 #
 
+_image_ubuntu_qgis_2    latest              28f9802044f2        2 weeks ago         2.11GB
+ddrohit/new_image_ubuntu_qgis_1    latest              1049036b6e1a        2 weeks ago         1.92GB
+ddrohit/new_image_ubuntu_qgis      latest              725c626af4e0        2 weeks ago         1.62GB
+ddrohit/new_image_ubuntu_1         latest              a01b86204c33        2 weeks ago         864MB
+ddrohit/new_image_ubuntu           latest              dd7ddf7eb0f1        2 weeks ago         340MB
+ubuntu                             16.04               f975c5035748        4 weeks ago         112MB
+ubuntu                             latest              f975c5035748        4 weeks ago         112MB
+tensorflow/tensorflow              latest              414b6e39764a        4 weeks ago         1.27GB
+hello-world                        latest              f2a91732366c        4 months ago        1.85kB
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ ## FART --- Docker - as seen above ---kartoza/qgis-desktop               latest              c52dc19f7cb8        2 years ago         1.69GB
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ ## Above image REMOVED after giving the FORCED - f FLAG - as the CONTAINER was Still Running 
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker ps -aCONTAINER ID        IMAGE                              COMMAND                  CREATED             STATUS                     PORTS               NAMES
+44ada9c5e1d3        dhankar/tensorflow-serving-devel   "/bin/bash"              10 hours ago        Exited (0) 9 hours ago                         upbeat_mccarthy
+c2124e6f3fc5        tensorflow/tensorflow              "/run_jupyter.sh --a…"   11 hours ago        Exited (0) 11 hours ago                        serene_chandrasekhar
+2c406ec20315        ddrohit/new_image_ubuntu_qgis_3    "bash"                   13 days ago         Exited (127) 13 days ago                       cranky_heisenberg
+51222fc2ea78        ddrohit/new_image_ubuntu_qgis_2    "bash"                   13 days ago         Exited (0) 13 days ago                         elastic_colden
+1ac88cc06e5f        ddrohit/new_image_ubuntu_qgis_2    "bash"                   2 weeks ago         Exited (139) 2 weeks ago                       goofy_hopper
+3501e1023cf0        ddrohit/new_image_ubuntu_qgis_2    "bash"                   2 weeks ago         Exited (2) 2 weeks ago                         naughty_murdock
+6d3c3634ca4f        ddrohit/new_image_ubuntu_qgis_1    "bash"                   2 weeks ago         Exited (1) 2 weeks ago                         eloquent_engelbart1
+5c2ed1274cc4        ddrohit/new_image_ubuntu_qgis_1    "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       confident_villani
+9a76be0e57ea        ddrohit/new_image_ubuntu_qgis      "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         agitated_pare
+05b8dc1b5e9f        ddrohit/new_image_ubuntu_qgis      "bash"                   2 weeks ago         Exited (1) 2 weeks ago                         agitated_swanson
+fc107394f848        ddrohit/new_image_ubuntu_1         "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       stupefied_meitner
+8f5ea764d4b7        ddrohit/new_image_ubuntu           "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       sleepy_northcutt
+82d279189cbf        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         kind_hugle
+8c124734e956        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         zen_einstein
+0976a20a1d0f        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         suspicious_jones
+e1aa2dbeb05b        ubuntu                             "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       jolly_swirles
+be5b8099d8fd        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         practical_fermat
+c995d7c5e17e        ubuntu                             "bash"                   2 weeks ago         Exited (130) 2 weeks ago                       jovial_kirch
+91761424a8d7        hello-world                        "/hello"                 2 weeks ago         Exited (0) 2 weeks ago                         focused_chatterjee
+74bc5baaad36        c52dc19f7cb8                       "/bin/sh -c /start.sh"   2 weeks ago         Exited (1) 2 weeks ago                         gifted_knuth
+5adb571f280a        c52dc19f7cb8                       "/bin/sh -c /start.sh"   2 weeks ago         Exited (1) 2 weeks ago                         nostalgic_kare
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker imagesREPOSITORY                         TAG                 IMAGE ID            CREATED             SIZE
+dhankar/tensorflow-serving-devel   latest              69e7c3fa252a        10 hours ago        1.1GB
+ddrohit/new_image_ubuntu_qgis_3    latest              1c8eb8183583        2 weeks ago         2.56GB
+ddrohit/new_image_ubuntu_qgis_2    latest              28f9802044f2        2 weeks ago         2.11GB
+ddrohit/new_image_ubuntu_qgis_1    latest              1049036b6e1a        2 weeks ago         1.92GB
+ddrohit/new_image_ubuntu_qgis      latest              725c626af4e0        2 weeks ago         1.62GB
+ddrohit/new_image_ubuntu_1         latest              a01b86204c33        2 weeks ago         864MB
+ddrohit/new_image_ubuntu           latest              dd7ddf7eb0f1        2 weeks ago         340MB
+ubuntu                             16.04               f975c5035748        4 weeks ago         112MB
+ubuntu                             latest              f975c5035748        4 weeks ago         112MB
+tensorflow/tensorflow              latest              414b6e39764a        4 weeks ago         1.27GB
+hello-world                        latest              f2a91732366c        4 months ago        1.85kB
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ ## FART -- seen above - IMAGE NAME == hello-world is still running in CONTAINER ID ==91761424a8d7 ,  also with ALIAS NAME == focused_chatterjee 
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ 
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker rmi -f dd7ddf7eb0f1
+[sudo] password for dhankar: 
+Error response from daemon: conflict: unable to delete dd7ddf7eb0f1 (cannot be forced) - image has dependent child images
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ 
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ docker inspect --format='{{.Id}} {{.Parent}}' $(docker images --filter since=dd7ddf7eb0f1 -q)
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http://%2Fvar%2Frun%2Fdocker.sock/v1.35/images/json?filters=%7B%22since%22%3A%7B%22dd7ddf7eb0f1%22%3Atrue%7D%7D: dial unix /var/run/docker.sock: connect: permission denied
+"docker inspect" requires at least 1 argument.
+See 'docker inspect --help'.
+
+Usage:  docker inspect [OPTIONS] NAME|ID [NAME|ID...] [flags]
+
+Return low-level information on Docker objects
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker inspect --format='{{.Id}} {{.Parent}}' $(docker images --filter since=dd7ddf7eb0f1 -q)
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http://%2Fvar%2Frun%2Fdocker.sock/v1.35/images/json?filters=%7B%22since%22%3A%7B%22dd7ddf7eb0f1%22%3Atrue%7D%7D: dial unix /var/run/docker.sock: connect: permission denied
+"docker inspect" requires at least 1 argument.
+See 'docker inspect --help'.
+
+Usage:  docker inspect [OPTIONS] NAME|ID [NAME|ID...] [flags]
+
+Return low-level information on Docker objects
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker rmi -f 1c8eb8183583
+Untagged: ddrohit/new_image_ubuntu_qgis_3:latest
+Deleted: sha256:1c8eb8183583f57a94431685e7feade42632939193c12107fa347f7048b128c8
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ 
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker imagesREPOSITORY                         TAG                 IMAGE ID            CREATED             SIZE
+dhankar/tensorflow-serving-devel   latest              69e7c3fa252a        14 hours ago        1.1GB
+ddrohit/new_image_ubuntu_qgis_2    latest              28f9802044f2        2 weeks ago         2.11GB
+ddrohit/new_image_ubuntu_qgis_1    latest              1049036b6e1a        2 weeks ago         1.92GB
+ddrohit/new_image_ubuntu_qgis      latest              725c626af4e0        2 weeks ago         1.62GB
+ddrohit/new_image_ubuntu_1         latest              a01b86204c33        2 weeks ago         864MB
+ddrohit/new_image_ubuntu           latest              dd7ddf7eb0f1        2 weeks ago         340MB
+ubuntu                             16.04               f975c5035748        4 weeks ago         112MB
+ubuntu                             latest              f975c5035748        4 weeks ago         112MB
+tensorflow/tensorflow              latest              414b6e39764a        5 weeks ago         1.27GB
+hello-world                        latest              f2a91732366c        4 months ago        1.85kB
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker rmi -f 28f9802044f2
+Untagged: ddrohit/new_image_ubuntu_qgis_2:latest
+Deleted: sha256:28f9802044f25a4a64571a7adcc2796b109790acd59c544dfcebe8005fe09a09
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker images
+REPOSITORY                         TAG                 IMAGE ID            CREATED             SIZE
+dhankar/tensorflow-serving-devel   latest              69e7c3fa252a        14 hours ago        1.1GB
+ddrohit/new_image_ubuntu_qgis_1    latest              1049036b6e1a        2 weeks ago         1.92GB
+ddrohit/new_image_ubuntu_qgis      latest              725c626af4e0        2 weeks ago         1.62GB
+ddrohit/new_image_ubuntu_1         latest              a01b86204c33        2 weeks ago         864MB
+ddrohit/new_image_ubuntu           latest              dd7ddf7eb0f1        2 weeks ago         340MB
+ubuntu                             16.04               f975c5035748        4 weeks ago         112MB
+ubuntu                             latest              f975c5035748        4 weeks ago         112MB
+tensorflow/tensorflow              latest              414b6e39764a        5 weeks ago         1.27GB
+hello-world                        latest              f2a91732366c        4 months ago        1.85kB
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker rmi -f 1049036b6e1a
+[sudo] password for dhankar: 
+Untagged: ddrohit/new_image_ubuntu_qgis_1:latest
+Deleted: sha256:1049036b6e1a4d3c78e1070acc87bf01ef25dfa8043c234a8c6630fa9cdd2b18
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker ps -a
+CONTAINER ID        IMAGE                              COMMAND                  CREATED             STATUS                     PORTS               NAMES
+44ada9c5e1d3        dhankar/tensorflow-serving-devel   "/bin/bash"              14 hours ago        Exited (0) 13 hours ago                        upbeat_mccarthy
+c2124e6f3fc5        tensorflow/tensorflow              "/run_jupyter.sh --a…"   15 hours ago        Exited (0) 15 hours ago                        serene_chandrasekhar
+2c406ec20315        1c8eb8183583                       "bash"                   2 weeks ago         Exited (127) 13 days ago                       cranky_heisenberg
+51222fc2ea78        28f9802044f2                       "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         elastic_colden
+1ac88cc06e5f        28f9802044f2                       "bash"                   2 weeks ago         Exited (139) 2 weeks ago                       goofy_hopper
+3501e1023cf0        28f9802044f2                       "bash"                   2 weeks ago         Exited (2) 2 weeks ago                         naughty_murdock
+6d3c3634ca4f        1049036b6e1a                       "bash"                   2 weeks ago         Exited (1) 2 weeks ago                         eloquent_engelbart1
+5c2ed1274cc4        1049036b6e1a                       "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       confident_villani
+9a76be0e57ea        ddrohit/new_image_ubuntu_qgis      "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         agitated_pare
+05b8dc1b5e9f        ddrohit/new_image_ubuntu_qgis      "bash"                   2 weeks ago         Exited (1) 2 weeks ago                         agitated_swanson
+fc107394f848        ddrohit/new_image_ubuntu_1         "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       stupefied_meitner
+8f5ea764d4b7        ddrohit/new_image_ubuntu           "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       sleepy_northcutt
+82d279189cbf        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         kind_hugle
+8c124734e956        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         zen_einstein
+0976a20a1d0f        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         suspicious_jones
+e1aa2dbeb05b        ubuntu                             "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       jolly_swirles
+be5b8099d8fd        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         practical_fermat
+c995d7c5e17e        ubuntu                             "bash"                   2 weeks ago         Exited (130) 2 weeks ago                       jovial_kirch
+91761424a8d7        hello-world                        "/hello"                 2 weeks ago         Exited (0) 2 weeks ago                         focused_chatterjee
+74bc5baaad36        c52dc19f7cb8                       "/bin/sh -c /start.sh"   2 weeks ago         Exited (1) 2 weeks ago                         gifted_knuth
+5adb571f280a        c52dc19f7cb8                       "/bin/sh -c /start.sh"   2 weeks ago         Exited (1) 2 weeks ago                         nostalgic_kare
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker rm 51222fc2ea78
+51222fc2ea78
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker ps -a
+CONTAINER ID        IMAGE                              COMMAND                  CREATED             STATUS                     PORTS               NAMES
+44ada9c5e1d3        dhankar/tensorflow-serving-devel   "/bin/bash"              14 hours ago        Exited (0) 13 hours ago                        upbeat_mccarthy
+c2124e6f3fc5        tensorflow/tensorflow              "/run_jupyter.sh --a…"   15 hours ago        Exited (0) 15 hours ago                        serene_chandrasekhar
+2c406ec20315        1c8eb8183583                       "bash"                   2 weeks ago         Exited (127) 13 days ago                       cranky_heisenberg
+1ac88cc06e5f        28f9802044f2                       "bash"                   2 weeks ago         Exited (139) 2 weeks ago                       goofy_hopper
+3501e1023cf0        28f9802044f2                       "bash"                   2 weeks ago         Exited (2) 2 weeks ago                         naughty_murdock
+6d3c3634ca4f        1049036b6e1a                       "bash"                   2 weeks ago         Exited (1) 2 weeks ago                         eloquent_engelbart1
+5c2ed1274cc4        1049036b6e1a                       "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       confident_villani
+9a76be0e57ea        ddrohit/new_image_ubuntu_qgis      "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         agitated_pare
+05b8dc1b5e9f        ddrohit/new_image_ubuntu_qgis      "bash"                   2 weeks ago         Exited (1) 2 weeks ago                         agitated_swanson
+fc107394f848        ddrohit/new_image_ubuntu_1         "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       stupefied_meitner
+8f5ea764d4b7        ddrohit/new_image_ubuntu           "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       sleepy_northcutt
+82d279189cbf        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         kind_hugle
+8c124734e956        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         zen_einstein
+0976a20a1d0f        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         suspicious_jones
+e1aa2dbeb05b        ubuntu                             "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       jolly_swirles
+be5b8099d8fd        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         practical_fermat
+c995d7c5e17e        ubuntu                             "bash"                   2 weeks ago         Exited (130) 2 weeks ago                       jovial_kirch
+91761424a8d7        hello-world                        "/hello"                 2 weeks ago         Exited (0) 2 weeks ago                         focused_chatterjee
+74bc5baaad36        c52dc19f7cb8                       "/bin/sh -c /start.sh"   2 weeks ago         Exited (1) 2 weeks ago                         gifted_knuth
+5adb571f280a        c52dc19f7cb8                       "/bin/sh -c /start.sh"   2 weeks ago         Exited (1) 2 weeks ago                         nostalgic_kare
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker rm 51222fc2ea78
+Error: No such container: 51222fc2ea78
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker images
+REPOSITORY                         TAG                 IMAGE ID            CREATED             SIZE
+dhankar/tensorflow-serving-devel   latest              69e7c3fa252a        14 hours ago        1.1GB
+ddrohit/new_image_ubuntu_qgis      latest              725c626af4e0        2 weeks ago         1.62GB
+ddrohit/new_image_ubuntu_1         latest              a01b86204c33        2 weeks ago         864MB
+ddrohit/new_image_ubuntu           latest              dd7ddf7eb0f1        2 weeks ago         340MB
+ubuntu                             16.04               f975c5035748        4 weeks ago         112MB
+ubuntu                             latest              f975c5035748        4 weeks ago         112MB
+tensorflow/tensorflow              latest              414b6e39764a        5 weeks ago         1.27GB
+hello-world                        latest              f2a91732366c        4 months ago        1.85kB
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker ps -a
+CONTAINER ID        IMAGE                              COMMAND                  CREATED             STATUS                     PORTS               NAMES
+44ada9c5e1d3        dhankar/tensorflow-serving-devel   "/bin/bash"              14 hours ago        Exited (0) 13 hours ago                        upbeat_mccarthy
+c2124e6f3fc5        tensorflow/tensorflow              "/run_jupyter.sh --a…"   15 hours ago        Exited (0) 15 hours ago                        serene_chandrasekhar
+2c406ec20315        1c8eb8183583                       "bash"                   2 weeks ago         Exited (127) 13 days ago                       cranky_heisenberg
+1ac88cc06e5f        28f9802044f2                       "bash"                   2 weeks ago         Exited (139) 2 weeks ago                       goofy_hopper
+3501e1023cf0        28f9802044f2                       "bash"                   2 weeks ago         Exited (2) 2 weeks ago                         naughty_murdock
+6d3c3634ca4f        1049036b6e1a                       "bash"                   2 weeks ago         Exited (1) 2 weeks ago                         eloquent_engelbart1
+5c2ed1274cc4        1049036b6e1a                       "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       confident_villani
+9a76be0e57ea        ddrohit/new_image_ubuntu_qgis      "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         agitated_pare
+05b8dc1b5e9f        ddrohit/new_image_ubuntu_qgis      "bash"                   2 weeks ago         Exited (1) 2 weeks ago                         agitated_swanson
+fc107394f848        ddrohit/new_image_ubuntu_1         "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       stupefied_meitner
+8f5ea764d4b7        ddrohit/new_image_ubuntu           "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       sleepy_northcutt
+82d279189cbf        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         kind_hugle
+8c124734e956        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         zen_einstein
+0976a20a1d0f        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         suspicious_jones
+e1aa2dbeb05b        ubuntu                             "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       jolly_swirles
+be5b8099d8fd        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         practical_fermat
+c995d7c5e17e        ubuntu                             "bash"                   2 weeks ago         Exited (130) 2 weeks ago                       jovial_kirch
+91761424a8d7        hello-world                        "/hello"                 2 weeks ago         Exited (0) 2 weeks ago                         focused_chatterjee
+74bc5baaad36        c52dc19f7cb8                       "/bin/sh -c /start.sh"   2 weeks ago         Exited (1) 2 weeks ago                         gifted_knuth
+5adb571f280a        c52dc19f7cb8                       "/bin/sh -c /start.sh"   2 weeks ago         Exited (1) 2 weeks ago                         nostalgic_kare
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker rm 1ac88cc06e5f
+1ac88cc06e5f
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker rm 3501e1023cf0
+3501e1023cf0
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker rm 6d3c3634ca4f
+6d3c3634ca4f
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker rm 5c2ed1274cc4
+5c2ed1274cc4
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker rm 9a76be0e57ea
+9a76be0e57ea
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker ps -a
+CONTAINER ID        IMAGE                              COMMAND                  CREATED             STATUS                     PORTS               NAMES
+44ada9c5e1d3        dhankar/tensorflow-serving-devel   "/bin/bash"              14 hours ago        Exited (0) 13 hours ago                        upbeat_mccarthy
+c2124e6f3fc5        tensorflow/tensorflow              "/run_jupyter.sh --a…"   15 hours ago        Exited (0) 15 hours ago                        serene_chandrasekhar
+2c406ec20315        1c8eb8183583                       "bash"                   2 weeks ago         Exited (127) 13 days ago                       cranky_heisenberg
+05b8dc1b5e9f        ddrohit/new_image_ubuntu_qgis      "bash"                   2 weeks ago         Exited (1) 2 weeks ago                         agitated_swanson
+fc107394f848        ddrohit/new_image_ubuntu_1         "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       stupefied_meitner
+8f5ea764d4b7        ddrohit/new_image_ubuntu           "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       sleepy_northcutt
+82d279189cbf        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         kind_hugle
+8c124734e956        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         zen_einstein
+0976a20a1d0f        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         suspicious_jones
+e1aa2dbeb05b        ubuntu                             "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       jolly_swirles
+be5b8099d8fd        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         practical_fermat
+c995d7c5e17e        ubuntu                             "bash"                   2 weeks ago         Exited (130) 2 weeks ago                       jovial_kirch
+91761424a8d7        hello-world                        "/hello"                 2 weeks ago         Exited (0) 2 weeks ago                         focused_chatterjee
+74bc5baaad36        c52dc19f7cb8                       "/bin/sh -c /start.sh"   2 weeks ago         Exited (1) 2 weeks ago                         gifted_knuth
+5adb571f280a        c52dc19f7cb8                       "/bin/sh -c /start.sh"   2 weeks ago         Exited (1) 2 weeks ago                         nostalgic_kare
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker images
+REPOSITORY                         TAG                 IMAGE ID            CREATED             SIZE
+dhankar/tensorflow-serving-devel   latest              69e7c3fa252a        14 hours ago        1.1GB
+ddrohit/new_image_ubuntu_qgis      latest              725c626af4e0        2 weeks ago         1.62GB
+ddrohit/new_image_ubuntu_1         latest              a01b86204c33        2 weeks ago         864MB
+ddrohit/new_image_ubuntu           latest              dd7ddf7eb0f1        2 weeks ago         340MB
+ubuntu                             16.04               f975c5035748        4 weeks ago         112MB
+ubuntu                             latest              f975c5035748        4 weeks ago         112MB
+tensorflow/tensorflow              latest              414b6e39764a        5 weeks ago         1.27GB
+hello-world                        latest              f2a91732366c        4 months ago        1.85kB
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker rmi -f 725c626af4e0
+Untagged: ddrohit/new_image_ubuntu_qgis:latest
+Deleted: sha256:725c626af4e0d03cc5e9a17e4e42247e3fa5be96fc98a56522a807aff2cbe373
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker rmi -f a01b86204c33
+Untagged: ddrohit/new_image_ubuntu_1:latest
+Deleted: sha256:a01b86204c330614f4e97067fcccd5b3e33431d57f4a917a880bced629a6c294
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker rmi -f dd7ddf7eb0f1
+Untagged: ddrohit/new_image_ubuntu:latest
+Deleted: sha256:dd7ddf7eb0f11244c1472fc9edbd5bce8124ac79b671ac91733268177f97b451
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker rmi -f f975c5035748 
+Error response from daemon: conflict: unable to delete f975c5035748 (cannot be forced) - image has dependent child images
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker images
+REPOSITORY                         TAG                 IMAGE ID            CREATED             SIZE
+dhankar/tensorflow-serving-devel   latest              69e7c3fa252a        14 hours ago        1.1GB
+ubuntu                             16.04               f975c5035748        4 weeks ago         112MB
+ubuntu                             latest              f975c5035748        4 weeks ago         112MB
+tensorflow/tensorflow              latest              414b6e39764a        5 weeks ago         1.27GB
+hello-world                        latest              f2a91732366c        4 months ago        1.85kB
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ 
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker rmi -f 414b6e39764a
+Untagged: tensorflow/tensorflow:latest
+Untagged: tensorflow/tensorflow@sha256:1e1c7666928ebb8eb68e2f37422746eb345d7633dc4822bc21615c96868737eb
+Deleted: sha256:414b6e39764a7d17d46cd9c26646febd97d7160112845de9a52992dffd12b485
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker images
+REPOSITORY                         TAG                 IMAGE ID            CREATED             SIZE
+dhankar/tensorflow-serving-devel   latest              69e7c3fa252a        14 hours ago        1.1GB
+ubuntu                             16.04               f975c5035748        4 weeks ago         112MB
+ubuntu                             latest              f975c5035748        4 weeks ago         112MB
+hello-world                        latest              f2a91732366c        4 months ago        1.85kB
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker ps -a
+CONTAINER ID        IMAGE                              COMMAND                  CREATED             STATUS                     PORTS               NAMES
+44ada9c5e1d3        dhankar/tensorflow-serving-devel   "/bin/bash"              14 hours ago        Exited (0) 13 hours ago                        upbeat_mccarthy
+c2124e6f3fc5        414b6e39764a                       "/run_jupyter.sh --a…"   15 hours ago        Exited (0) 15 hours ago                        serene_chandrasekhar
+2c406ec20315        1c8eb8183583                       "bash"                   2 weeks ago         Exited (127) 13 days ago                       cranky_heisenberg
+05b8dc1b5e9f        725c626af4e0                       "bash"                   2 weeks ago         Exited (1) 2 weeks ago                         agitated_swanson
+fc107394f848        a01b86204c33                       "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       stupefied_meitner
+8f5ea764d4b7        dd7ddf7eb0f1                       "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       sleepy_northcutt
+82d279189cbf        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         kind_hugle
+8c124734e956        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         zen_einstein
+0976a20a1d0f        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         suspicious_jones
+e1aa2dbeb05b        ubuntu                             "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       jolly_swirles
+be5b8099d8fd        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         practical_fermat
+c995d7c5e17e        ubuntu                             "bash"                   2 weeks ago         Exited (130) 2 weeks ago                       jovial_kirch
+91761424a8d7        hello-world                        "/hello"                 2 weeks ago         Exited (0) 2 weeks ago                         focused_chatterjee
+74bc5baaad36        c52dc19f7cb8                       "/bin/sh -c /start.sh"   2 weeks ago         Exited (1) 2 weeks ago                         gifted_knuth
+5adb571f280a        c52dc19f7cb8                       "/bin/sh -c /start.sh"   2 weeks ago         Exited (1) 2 weeks ago                         nostalgic_kare
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker rm c995d7c5e17e
+c995d7c5e17e
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker rm be5b8099d8fd
+be5b8099d8fd
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker rm e1aa2dbeb05b
+e1aa2dbeb05b
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker rm 0976a20a1d0f
+0976a20a1d0f
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker rm 8c124734e956
+8c124734e956
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker ps -a
+CONTAINER ID        IMAGE                              COMMAND                  CREATED             STATUS                     PORTS               NAMES
+44ada9c5e1d3        dhankar/tensorflow-serving-devel   "/bin/bash"              14 hours ago        Exited (0) 13 hours ago                        upbeat_mccarthy
+c2124e6f3fc5        414b6e39764a                       "/run_jupyter.sh --a…"   15 hours ago        Exited (0) 15 hours ago                        serene_chandrasekhar
+2c406ec20315        1c8eb8183583                       "bash"                   2 weeks ago         Exited (127) 13 days ago                       cranky_heisenberg
+05b8dc1b5e9f        725c626af4e0                       "bash"                   2 weeks ago         Exited (1) 2 weeks ago                         agitated_swanson
+fc107394f848        a01b86204c33                       "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       stupefied_meitner
+8f5ea764d4b7        dd7ddf7eb0f1                       "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       sleepy_northcutt
+82d279189cbf        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         kind_hugle
+91761424a8d7        hello-world                        "/hello"                 2 weeks ago         Exited (0) 2 weeks ago                         focused_chatterjee
+74bc5baaad36        c52dc19f7cb8                       "/bin/sh -c /start.sh"   2 weeks ago         Exited (1) 2 weeks ago                         gifted_knuth
+5adb571f280a        c52dc19f7cb8                       "/bin/sh -c /start.sh"   2 weeks ago         Exited (1) 2 weeks ago                         nostalgic_kare
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker images
+REPOSITORY                         TAG                 IMAGE ID            CREATED             SIZE
+dhankar/tensorflow-serving-devel   latest              69e7c3fa252a        14 hours ago        1.1GB
+ubuntu                             16.04               f975c5035748        4 weeks ago         112MB
+ubuntu                             latest              f975c5035748        4 weeks ago         112MB
+hello-world                        latest              f2a91732366c        4 months ago        1.85kB
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker rm c2124e6f3fc5
+c2124e6f3fc5
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker rm 2c406ec20315
+2c406ec20315
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker rm 05b8dc1b5e9f
+05b8dc1b5e9f
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ sudo docker ps -a
+CONTAINER ID        IMAGE                              COMMAND                  CREATED             STATUS                     PORTS               NAMES
+44ada9c5e1d3        dhankar/tensorflow-serving-devel   "/bin/bash"              14 hours ago        Exited (0) 13 hours ago                        upbeat_mccarthy
+fc107394f848        a01b86204c33                       "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       stupefied_meitner
+8f5ea764d4b7        dd7ddf7eb0f1                       "bash"                   2 weeks ago         Exited (127) 2 weeks ago                       sleepy_northcutt
+82d279189cbf        ubuntu                             "bash"                   2 weeks ago         Exited (0) 2 weeks ago                         kind_hugle
+91761424a8d7        hello-world                        "/hello"                 2 weeks ago         Exited (0) 2 weeks ago                         focused_chatterjee
+74bc5baaad36        c52dc19f7cb8                       "/bin/sh -c /start.sh"   2 weeks ago         Exited (1) 2 weeks ago                         gifted_knuth
+5adb571f280a        c52dc19f7cb8                       "/bin/sh -c /start.sh"   2 weeks ago         Exited (1) 2 weeks ago                         nostalgic_kare
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ ### FART Main --- Ensure unused CONTAINERS are REMOVED / DELETED --- Its not enough just to remove the IMAGES 
+dhankar@dhankar-VPCEB44EN:/media/dhankar/Dhankar_1/a2_18/a1____Tensor_Mar18/TensorServingDockerOwn$ 
 
